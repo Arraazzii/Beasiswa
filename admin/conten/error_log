@@ -1,0 +1,14 @@
+[02-Aug-2018 09:56:25 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/jvybdzdx/public_html/beasiswa/admin/conten/logout.php on line 6
+[13-Sep-2018 06:47:42 UTC] PHP Notice:  Undefined index: Username in /home/jvybdzdx/public_html/beasiswa/admin/conten/index.php on line 6
+[13-Sep-2018 06:47:44 UTC] PHP Notice:  Undefined index: Username in /home/jvybdzdx/public_html/beasiswa/admin/conten/index.php on line 6
+[13-Sep-2018 06:47:46 UTC] PHP Notice:  Undefined index: Username in /home/jvybdzdx/public_html/beasiswa/admin/conten/index.php on line 6
+[13-Sep-2018 06:47:47 UTC] PHP Notice:  Undefined index: Username in /home/jvybdzdx/public_html/beasiswa/admin/conten/index.php on line 6
+[13-Sep-2018 06:48:10 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jvybdzdx/public_html/beasiswa/admin/conten/data_rekap/data_rekap.php on line 133
+[13-Sep-2018 06:48:27 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jvybdzdx/public_html/beasiswa/admin/conten/data_rekap/cari_rekap.php on line 130
+[13-Sep-2018 06:48:39 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jvybdzdx/public_html/beasiswa/admin/conten/data_penbe/data_penbe.php on line 129
+[17-Sep-2018 07:28:34 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jvybdzdx/public_html/beasiswa/admin/conten/data_pendaftar/data_pendaftar.php on line 47
+[17-Sep-2018 07:28:34 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jvybdzdx/public_html/beasiswa/admin/conten/data_pendaftar/data_pendaftar.php on line 109
+[17-Sep-2018 15:05:30 UTC] PHP Notice:  Undefined index: Username in /home/jvybdzdx/public_html/beasiswa/admin/conten/index.php on line 6
+[17-Sep-2018 15:05:38 UTC] PHP Notice:  Undefined index: Username in /home/jvybdzdx/public_html/beasiswa/admin/conten/index.php on line 6
+[18-Sep-2018 09:32:47 UTC] PHP Notice:  Undefined index: Username in /home/jvybdzdx/public_html/beasiswa/admin/conten/index.php on line 6
+[18-Sep-2018 09:32:49 UTC] PHP Notice:  Undefined index: Username in /home/jvybdzdx/public_html/beasiswa/admin/conten/index.php on line 6

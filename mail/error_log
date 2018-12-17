@@ -1,0 +1,6 @@
+[09-Jul-2018 07:50:24 UTC] PHP Notice:  Undefined index: nama in /home/jvybdzdx/public_html/beasiswa/mail/kirim.php on line 5
+[09-Jul-2018 07:50:24 UTC] PHP Notice:  Undefined index: tempat in /home/jvybdzdx/public_html/beasiswa/mail/kirim.php on line 6
+[09-Jul-2018 07:50:24 UTC] PHP Notice:  Undefined index: tgl in /home/jvybdzdx/public_html/beasiswa/mail/kirim.php on line 7
+[09-Jul-2018 07:50:24 UTC] PHP Notice:  Undefined index: email in /home/jvybdzdx/public_html/beasiswa/mail/kirim.php on line 8
+[09-Jul-2018 07:50:24 UTC] PHP Notice:  Undefined index: pass1 in /home/jvybdzdx/public_html/beasiswa/mail/kirim.php on line 9
+[09-Jul-2018 07:50:24 UTC] PHP Notice:  Undefined index: pass2 in /home/jvybdzdx/public_html/beasiswa/mail/kirim.php on line 10

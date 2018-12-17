@@ -1,0 +1,115 @@
+/* Warna */
+#warnabiru{
+	background-image:url(img/bg.png);
+	border-width:0px 0px 0px 0px;
+	height:400px;
+	padding:180px 40px 40px 40px ;
+	}		
+#warnaabu2{
+	/* fallback */
+    background-color: #FFF;
+    /* Safari 4-5, Chrome 1-9 */
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#CCC ), to(#FFF));
+    /* Safari 5.1, Chrome 10+ */
+    background: -webkit-linear-gradient(top, #CCC , #FFF);
+    /* Firefox 3.6+ */
+    background: -moz-linear-gradient(top, #CCC , #FFF);
+    /* IE 10 */
+    background: -ms-linear-gradient(top, #CCC,  #FFF);
+    /* Opera 11.10+ */
+    background: -o-linear-gradient(top, #CCC,  #FFF);
+	color:#FF7111;
+	}			
+#warnaabu3{
+	/* fallback */
+    background-color: #FFF;
+    /* Safari 4-5, Chrome 1-9 */
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#CCC ), to(#FFF));
+    /* Safari 5.1, Chrome 10+ */
+    background: -webkit-linear-gradient(top, #CCC , #FFF);
+    /* Firefox 3.6+ */
+    background: -moz-linear-gradient(top, #CCC , #FFF);
+    /* IE 10 */
+    background: -ms-linear-gradient(top, #CCC,  #FFF);
+    /* Opera 11.10+ */
+    background: -o-linear-gradient(top, #CCC,  #FFF);
+	border-radius:7px 7px 7px 7px;
+	box-shadow:#333 2px 3px 7px;
+	height:50px;
+	}									
+#warnaabutua{
+	/* fallback */
+    background-color: #666;
+    /* Safari 4-5, Chrome 1-9 */
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#333 ), to(#666));
+    /* Safari 5.1, Chrome 10+ */
+    background: -webkit-linear-gradient(top, #333 , #666);
+    /* Firefox 3.6+ */
+    background: -moz-linear-gradient(top, #333 , #666);
+    /* IE 10 */
+    background: -ms-linear-gradient(top, #333,  #666);
+    /* Opera 11.10+ */
+    background: -o-linear-gradient(top, #333,  #666);
+	color:#FF9900;
+	
+	}	
+				
+#warnafontputih{
+color:#FFF;	
+}
+.lebarisisan{
+width:100%;	
+}
+#lebarisisan{
+width:100%;	
+}
+.headertabel{
+border-radius:10px 10px 0px 0px;
+font-weight:bold;	
+}
+.bgisitabel{
+background-image:url(img/bgblack.png);	
+}
+.bgisitabelfooter1{
+	border-radius:0px 0px 0px 10px;	
+	background-image:url(img/bgblack.png);
+}
+.bgisitabelfooter2{
+	border-radius:0px 0px 10px 0px;	
+	background-image:url(img/bgblack.png);
+}
+#shadow{
+box-shadow:#333 2px 3px 15px;	
+}
+#BG_menu_data_Calon_Penerima{
+background-image:url(img/bgblack.png);
+border-radius:10px 10px 10px 10px;	
+}
+
+.lekukantabel1{
+border-radius:10px 0px 0px 0px;	
+}
+.lekukantabel2{
+border-radius:0px 10px 0px 0px;	
+}
+.lekukantabel3{
+border-radius:10px 10px 10px 10px;	
+}
+#lekukantabel4{
+border-radius:10px 10px 10px 10px;	
+background-color: #666;
+    /* Safari 4-5, Chrome 1-9 */
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#333 ), to(#666));
+    /* Safari 5.1, Chrome 10+ */
+    background: -webkit-linear-gradient(top, #333 , #666);
+    /* Firefox 3.6+ */
+    background: -moz-linear-gradient(top, #333 , #666);
+    /* IE 10 */
+    background: -ms-linear-gradient(top, #333,  #666);
+    /* Opera 11.10+ */
+    background: -o-linear-gradient(top, #333,  #666);
+	color:#FF9900;
+}
+.progress-bar.animate {
+   width: 100%;
+}

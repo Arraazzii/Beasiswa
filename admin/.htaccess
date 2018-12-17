@@ -1,0 +1,11 @@
+# PREVENT FOLDER LISTING
+IndexIgnore *
+
+# disable directory browsing
+Options All -Indexes
+
+RewriteEngine on
+
+RewriteRule ^Admin.html$ index.php?conten=home [L]
+RewriteRule ^Data_Beasiswa.html$ index.php?conten=data [L]
+RewriteRule ^Logout.html$ ../includes/logout.php [L]

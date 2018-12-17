@@ -1,0 +1,20 @@
+# PREVENT FOLDER LISTING
+IndexIgnore *
+
+# disable directory browsing
+Options All -Indexes
+
+RewriteEngine on
+
+RewriteRule ^Admin.html$ index.php?conten=home [L]
+RewriteRule ^Pendaftaran_user.html$ index.php?conten=mstru [L]
+RewriteRule ^Skor_Calon_Penerima.html$ index.php?conten=skor [L]
+RewriteRule ^Penerima_BPI.html$ index.php?conten=acc [L]
+RewriteRule ^Pendaftar_BPI.html$ index.php?conten=notacc [L]
+RewriteRule ^Matrik_Kuota.html$ index.php?conten=kuota [L]
+RewriteRule ^Kuota_Daerah.html$ index.php?conten=kuota_daerah [L]
+RewriteRule ^Akun_user.html$ index.php?conten=masupi [L]
+RewriteRule ^Data_unit.html$ index.php?conten=masun [L]
+RewriteRule ^Cetak_SK.html$ index.php?conten=cetaksk [L]
+RewriteRule ^Cetak_Tanda_Terima.html$ index.php?conten=cetaktanda [L]
+RewriteRule ^Logout.html$ ../includes/logout.php [L]

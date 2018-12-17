@@ -1,0 +1,272 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<?php include_once 'includes/header.php'; ?>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Login</title>
+<link href="" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="bootstrap/dist/css/animate.min.css">
+<link href="bootstrap/dist/css/bootstrap.css" rel="stylesheet" type="text/css" />
+<link href="bootstrap/dist/css/bootstrap-theme.css" rel="stylesheet" type="text/css" />
+<link href="themes/base/jquery.ui.all.css" rel="stylesheet" type="text/css" />
+<link href="bpi.css" rel="stylesheet" type="text/css" />
+
+<script src="js/jquery.js"></script> 
+<script src="js/jquery-1.7.2.js"></script>
+<script src="ui/jquery.ui.core.js"></script>
+<script src="ui/jquery.ui.widget.js"></script>
+<script src="ui/jquery.ui.datepicker.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript" src="bootstrap/dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="bootstrap/dist/js/bootstrap.js"></script>
+
+<style type="text/css">
+  /*style untuk popup */  
+  #popup {
+    background-color: rgba(0,0,0,0.8);
+    position: fixed;
+
+    top:0;
+    left:0;
+
+Copyright@Yudistira Energy Group 2015
+    right:0;
+    bottom:0;
+    margin:0;
+    -webkit-animation:autopopup 2s;
+    -moz-animation:autopopup 2s;
+    animation:autopopup 2s;
+    align: center;
+  }
+  #popup:target {
+    -webkit-transition:all 1s;
+    -moz-transition:all 1s;
+    transition:all 1s;
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  @media (min-width: 768px){
+    .popup-container {
+      width:350px;
+    }
+  }
+  @media (max-width: 767px){
+    .popup-container {
+      width:130%;
+    }
+  }
+  .popup-container {
+    position: relative;
+    margin:7% auto;
+    padding:18px 30px;
+    background-color: #fafafa;
+    color:#333;
+    border-radius: 3px;
+  }
+
+  a.popup-close {
+    position: absolute;
+    top:3px;
+    right:3px;
+    background-color: #333;
+    padding:7px 10px;
+    font-size: 20px;
+    text-decoration: none;
+    line-height: 1;
+    color:#fff;
+  }
+  /* end style popup */
+
+  /* style untuk isi popup */
+  .popup-form2 {
+    margin:30px auto;
+  }
+    .popup-form2 h2 {
+      margin-bottom: 5px;
+      font-size: 16px;
+      text-transform: uppercase;
+      color: #000;
+    }
+    .popup-form2 p {
+      margin-bottom: 5px;
+      font-size: 12px;
+      text-transform: uppercase;
+      color: #000;
+    }
+    .popup-form2 .input-group2 {
+      margin:10px auto;
+    }
+      .popup-form2 .input-group2 input {
+        padding:10px;
+        text-align: center;
+        margin-top: 4px;
+        margin-bottom: 4px;
+        border-radius:3px;
+        font-size: 14px; 
+        display: block;
+        width: 60%;
+        color: #000;
+      }
+      .popup-form2 .input-group2 input:focus {
+        outline-color:#FB8833; 
+      }
+      .popup-form2 .input-group2 input[type="email"] {
+        border:0px;
+        position: relative;
+      }
+      .popup-form2 .input-group2 input[type="button"] {
+        background-color: #FB8833;
+        color: #fff;
+        border: 0px;
+        cursor: pointer;
+        color: #000;
+      }
+      .popup-form2 .input-group2 input[type="button"]:focus {
+        box-shadow: inset 0 3px 7px 3px #ea7722;
+      }
+
+</style>
+</head>
+
+
+
+<script>
+
+
+  $(function() {
+    $( "#tgl" ).datepicker({
+      changeMonth: true,
+      changeYear: true 
+                });
+     });
+  </script>
+
+<script>
+function validateForm() {
+    var input1 = document.forms["myForm"]["nama"].value;
+    var input2 = document.forms["myForm"]["tempat"].value;
+    var input2 = document.forms["myForm"]["tgl"].value;
+    var input2 = document.forms["myForm"]["email"].value;
+    var input2 = document.forms["myForm"]["pass1"].value;
+    var input2 = document.forms["myForm"]["pass2"].value;
+    if (input1 == null || input1 == "") {
+        alert("Name Wajib Diisi !");
+        $('#nama').focus();
+        return false;
+    }
+    if (input2 == null || input2 == "") {
+        alert("Tempat lahir Wajib Diisi !");
+        $('#tempat').focus();
+        return false;
+    }
+    if (input3 == null || input3 == "") {
+        alert("Tanggal Wajib Diisi !");
+        $('#tgl').focus();
+        return false;
+    }
+    if (input4 == null || input4 == "") {
+        alert("Tanggal Email wajib Diisi !");
+        $('#email').focus();
+        return false;
+    }
+    if (input5 == null || input5 == "") {
+        alert("Password wajib Diisi !");
+        $('#pass1').focus();
+        return false;
+    }
+    if (input6 == null || input6 == "") {
+        alert("Konfirmasi Password wajib Diisi !");
+        $('#pass2').focus();
+        return false;
+    }
+    if (input6 == input5 ) {
+        alert("password dan Konfirmasi password !");
+        $('#pass1').val("");
+        $('#pass2').val("");
+        $('#pass1').focus();
+        return false;
+    }
+}
+</script>
+
+
+
+<body background="img/b.jpg" style="background-size:cover">
+
+<div class="container-fluid" style="margin-top:2%; margin-bottom:5%;" >
+
+<center>
+<img style="padding:5px;" class="img-rounded img-responsive" src="img/Yayasan-japfa2.png" />
+<em><strong><h1 style="color:#FFF;"><strong>Beasiswa Japfa Foundation</strong></h1></strong></em>
+<em><strong><h2 style="color:#FFF;"><strong>Register</strong></h2></strong></em> </center>
+<div class="row">
+  <div class="col-md-3">
+  </div>
+  <div class="col-md-3">
+    <div style="padding:2%;">
+  <form class="form-horizontal" method="post" action="include/proses_daftar.php" name="myForm" onsubmit="return validateForm()">
+   <div class="form-group">
+   <label for="exampleInputEmail1">Nama Lengkap</label>
+    <input type="text" name="nama" id="nama" class="form-control" id="exampleInputEmail1" placeholder="Nama Lengkap" >
+  </div>
+  
+  <div class="form-group">
+  <label for="exampleInputEmail1">Tempat Lahir</label>
+    <input type="text" name="tempat" id="tempat" class="form-control" id="exampleInputPassword1" placeholder="Tempat Lahir" >
+  </div>
+  
+  <div class="form-group">
+  <label for="exampleInputEmail1">Tanggal Lahir</label>
+    <input type="text" name="tgl" id="tgl" class="form-control" id="exampleInputPassword1" placeholder="DD/MM/YY">
+  </div>
+</div>
+  </div>
+  
+   <div class="col-md-3">
+   <div style="padding:2%;">
+   <div class="form-group">
+   <label for="exampleInputEmail1">E-mail</label>
+    <input type="email" name="email" id="email" class="form-control" id="exampleInputEmail1" placeholder="E-mail" >
+  </div>
+  
+  <div class="form-group">
+  <label for="exampleInputEmail1">Password</label>
+    <input type="password" name="pass1" id="pass1" class="form-control" id="exampleInputPassword1" placeholder="Password" >
+  </div>
+  
+  <div class="form-group">
+  <label for="exampleInputEmail1">Konfirmasi Password</label>
+    <input type="password" name="pass2" id="pass2" class="form-control" id="exampleInputPassword1" placeholder="Konfirmasi Password">
+  </div>
+</div>
+  </div> 
+  <div class="col-md-3">
+</div>
+</div>
+<div align="center" style="margin:auto; max-width:300px;"><button type="submit" class="btn btn-primary btn-lg btn-block" id="warnaabutua">Register</button></div></div>
+</form>
+
+
+<div> 
+
+<div class="modal fade" id="myModal" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel"><font color="#00000"> Username Tidak Ditemukan!</font></h4>
+      </div>
+      <div class="modal-body">
+        <font size="4px">Username yang dimasukkan tidak sesuai!
+        masukkan kembali user name pada kotak text username!</font>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
